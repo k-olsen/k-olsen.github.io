@@ -6,7 +6,16 @@
     <description>Recent content in Projects on Kira Olsen, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 May 2021 21:00:40 -0400</lastBuildDate><atom:link href="https://k-olsen.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Aug 2021 01:00:40 -0400</lastBuildDate><atom:link href="https://k-olsen.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LSTM for time-series forecasting: predicting wind-power generation</title>
+      <link>https://k-olsen.github.io/projects/wind_power_forecasting_project_post/</link>
+      <pubDate>Tue, 24 Aug 2021 01:00:40 -0400</pubDate>
+      
+      <guid>https://k-olsen.github.io/projects/wind_power_forecasting_project_post/</guid>
+      <description>Time-series forecasting has tons of applications. If we have a record of how something has changed with time in the past, the next step is often to wonder about how the same variable will change in the future.</description>
+    </item>
+    
     <item>
       <title>A convolutional neural network built to detect Antarctic icequakes</title>
       <link>https://k-olsen.github.io/projects/my-first-post/</link>
