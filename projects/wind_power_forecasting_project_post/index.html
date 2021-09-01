@@ -14,7 +14,7 @@
 <meta itemprop="name" content="LSTM for time-series forecasting: predicting wind-power generation">
 <meta itemprop="description" content="Time-series forecasting has tons of applications. If we have a record of how something has changed with time in the past, the next step is often to wonder about how the same variable will change in the future."><meta itemprop="datePublished" content="2021-08-24T01:00:40-04:00" />
 <meta itemprop="dateModified" content="2021-08-24T01:00:40-04:00" />
-<meta itemprop="wordCount" content="1027"><meta itemprop="image" content="https://k-olsen.github.io/images/profile.png"/>
+<meta itemprop="wordCount" content="1044"><meta itemprop="image" content="https://k-olsen.github.io/images/profile.png"/>
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary_large_image"/>
@@ -267,6 +267,7 @@ model<span style="color:#f92672">.</span>fit(X, y, epochs<span style="color:#f92
 <p>If we want to predict further ahead than just one time step, we need to modify our LSTM network. This is beyond the scope of this post, but if you&rsquo;re interested I&rsquo;ll say a few words about how it can be done.</p>
 <p>The approach I would take to predict more than one time step (say, to predict 1 hr into the future, or 4 time steps) would be to expand upon the LSTM we&rsquo;ve built here would to build an <a href="https://machinelearningmastery.com/encoder-decoder-long-short-term-memory-networks/">encoder-decoder LSTM</a>. Encoder-decoder networks can solve sequence-to-sequence problems, where the output prediction is also a sequence (and not just a single point).</p>
 <p>Ultimately, using either an LSTM network as described here or an encoder-decoder LSTM will provide a data-driven prediction of future wind-power generation. These are powerful approaches and only require a time series as input, that is, a record of wind-power generation. A more sophisticated forecasting model could include a physics-driven approach, whereby known information such as how time of day or season generally influences wind speeds, could be included. This approach might yield a more accurate forecasting tool, but would require both an understanding of the variables that influence wind-power generation, and significantly more work than the model presented here.</p>
+<p>The code for the analysis and figures in this post can be found <a href="https://github.com/k-olsen/LSTM-wind-forecasting">on my GitHub page</a>.</p>
 
   </div>
 
